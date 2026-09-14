@@ -1,0 +1,11 @@
+# Deploy + publish state — these embed a claim token, never commit them
+.lakebed/
+.herenow/
+
+# Build / dependency output
+node_modules/
+dist/
+*.log
+
+# OS noise
+.DS_Store
